@@ -1,7 +1,5 @@
-from unicodedata import name
-from xml.dom.domreg import well_known_implementations
 
-from Weapon import Weapon
+from weapon import Weapon
 
 
 class Robot():
