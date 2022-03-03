@@ -1,4 +1,3 @@
-
 from weapon import Weapon
 
 
@@ -7,5 +6,8 @@ class Robot():
         self.name = name
         self.health = 100
         self.weapon = Weapon
+    
     def attack(self, dinosaur):
-        pass  
+        self.dinosaur = dinosaur 
+
+         
