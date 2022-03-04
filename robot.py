@@ -9,4 +9,3 @@ class Robot:
     def attack(self, dinosaur):
         dinosaur.health = dinosaur.health - self.weapon.attack_power 
 
-         
